@@ -34,10 +34,10 @@ body {
   letter-spacing: 0.1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  /* font-family: 'Poiret One', cursive; */
 }
 
-h1,
+p, h1,
 h2,
 h3,
 h4,
