@@ -1,21 +1,41 @@
-import React from "react";
+import React, { useState } from 'react';
+import FriendCard from './ProjectCard';
+import Wrapper from './Wrapper';
+import friends from './friends.json';
 
-const Blog = () => (
-  <div>
-    <h1>Blog Page</h1>
-    <p>
-      Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-      turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-      Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-      nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo
-      laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad litora
-      torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-      lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec placerat
-      accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque vehicula sit
-      amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus non ullamcorper
-      iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-    </p>
-  </div>
-);
+function App() {
+  // Using useState, declare a new state variable 'friendsList' and set it to the 'friends' array from 'friends.json'
+  const [friendsList, setFriendsList] = useState(friends);
 
-export default Blog;
+  // Create a method 'removeFriend()' that takes in 'id' and filters through 'friendsList'
+  // Update the state with the new friends list.
+  const removeFriend = id => {
+    const newList = friendsList.filter(friend => friend.id !== id);
+    setFriendsList(newList);
+  };
+
+  return (
+    <Wrapper>
+      <h1 style={{
+        width: "100%",
+        textAlign: "center",
+        marginBottom: "50px"
+      }}>Friends List</h1>
+      {/* Map through 'friendsList' and render a 'FriendCard' for each friend */}
+      {/* Pass in the 'removeFriend()' method and each property of a friend */}
+      {friendsList.map(friend => (
+        <FriendCard
+          removeFriend={removeFriend}
+          id={friend.id}
+          key={friend.id}
+          name={friend.name}
+          image={friend.image}
+          occupation={friend.occupation}
+          location={friend.location}
+        />
+      ))}
+    </Wrapper>
+  );
+}
+
+export default App;

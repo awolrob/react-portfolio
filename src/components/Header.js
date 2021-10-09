@@ -14,7 +14,7 @@ function Header() {
     switch (currentPage) {
       case 'About':
         return <About />;
-      case 'Blog':
+      case 'Portfolio':
         return <Portfolio />;
       case 'Contact':
         return <Contact />;
