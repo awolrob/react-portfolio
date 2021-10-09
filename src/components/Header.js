@@ -21,7 +21,7 @@ function Header() {
       case 'Resume':
         return <Resume />;
       default:
-        return <About />;
+        return <Contact />;
     }
   };
 

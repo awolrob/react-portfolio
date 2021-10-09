@@ -1,7 +1,7 @@
 import React from 'react';
 import coverImage from '../../assets/images/imageedit_1_5111650247.png';
 import robImage from '../../assets/images/Rob.png';
-import { MDBCol, MDBContainer, MDBRow } from "mdbreact";
+import { MDBCol, MDBContainer, MDBRow } from 'mdb-react-ui-kit';
 
 function About() {
   return (

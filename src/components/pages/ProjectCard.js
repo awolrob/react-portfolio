@@ -4,14 +4,14 @@ import '../../assets/styles/ProjectCardStyle.css'
 // Props are passed through our functional component.
 function ProjectCard(props) {
   return (
-    <div className="card">
+    <div className="cardProject">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
         {/* <img alt={props.name} src={`url(${props.image})`} /> */}
         {/* <img alt={props.name} src={require(`${props.image}`).default} /> */}
         {/* {require(`../../assets/small/${category}/${i}.jpg`).default */}
       </div>
-      <div className="content">
+      {/* <div className="content"> */}
         <ul>
           <li>
             <strong>Name:</strong> {props.name}
@@ -23,7 +23,7 @@ function ProjectCard(props) {
             <strong>Location:</strong> {props.location}
           </li>
         </ul>
-      </div>
+      {/* </div> */}
       {/* The onClick method will invoke the removeFriends function passing through the value of props.id  */}
       <span onClick={() => props.removeFriend(props.id)} className="remove">
         𝘅
