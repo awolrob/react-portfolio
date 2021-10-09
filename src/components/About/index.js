@@ -1,21 +1,22 @@
 import React from 'react';
 import coverImage from '../../assets/images/imageedit_1_5111650247.png';
 import robImage from '../../assets/images/Rob.png';
+import { MDBCol, MDBContainer, MDBRow } from "mdbreact";
 
 function About() {
   return (
-    <section className="">
-      <div className="container" >
-        <div className="row">
-          <div className="col-md-12" style={{
+    <MDBContainer>
+      <MDBContainer >
+        <MDBRow>
+          <MDBCol style={{
             backgroundImage: `url(${coverImage})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat"
           }}>
             <h1 id="about" className="text-lg-center">About Me</h1>
-            <div className="row">
-              <div className="col-md-3">
+            <MDBRow>
+              <MDBCol>
                 <div className="flex-row justify-content-center ">
                   <img
                     src={robImage}
@@ -23,7 +24,7 @@ function About() {
                   />
                   <p>Rob Ellingson</p>
                 </div>
-              </div>
+              </MDBCol>
               <div className="col-md-9">
                 <p>
                   Full Stack Web Developer with the passion to bring experiences from an in-house Visual Basic / Access database
@@ -55,25 +56,11 @@ function About() {
                 </div>
 
               </div>
-              {/* <div className="col-md-12">
-                <img
-                  src={coverImage}
-                  style={{opacity: "0.25"}}
-                  className="img-fluid"
-                  alt="cover"
-                />
-              </div> */}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section >
-    // <ImageBackground source={require({ coverImage })} style={{ width: '100%', height: '100%' }}>
-    //   <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center' }}>
-    //     <Text>Centered text</Text>
-    //   </View>
-    // </ImageBackground>
-
+            </MDBRow>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
+    </MDBContainer >
   );
 }
 

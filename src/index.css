@@ -3,7 +3,7 @@ main {
   max-width: 90%;
   padding: 50px 30px;
 }
-:root {
+/* :root {
   --primary: #8c54ff;
   --secondary: #f3a847;
   --tertiary: #b12704;
@@ -14,7 +14,7 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -25,7 +25,7 @@ body {
   min-height: 100%;
 }
 
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -33,9 +33,9 @@ body {
   font-size: 18px;
   letter-spacing: 0.1em;
   background: var(--dark);
-  color: var(--light);
+  color: var(--light); */
   /* font-family: 'Poiret One', cursive; */
-}
+/* } */
 
 p, h1,
 h2,
