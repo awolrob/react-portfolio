@@ -1,12 +1,15 @@
 import React from 'react';
-import './ProjectCardStyle.css';
+import '../../assets/styles/ProjectCardStyle.css'
 
 // Props are passed through our functional component.
-function FriendCard(props) {
+function ProjectCard(props) {
   return (
     <div className="card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
+        {/* <img alt={props.name} src={`url(${props.image})`} /> */}
+        {/* <img alt={props.name} src={require(`${props.image}`).default} /> */}
+        {/* {require(`../../assets/small/${category}/${i}.jpg`).default */}
       </div>
       <div className="content">
         <ul>
@@ -29,4 +32,4 @@ function FriendCard(props) {
   );
 }
 
-export default FriendCard;
+export default ProjectCard;
