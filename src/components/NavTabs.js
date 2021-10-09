@@ -14,7 +14,7 @@ import {
 
 // Props are passed through our functional component.
 function NavTabs(props) {
-  const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
+  const tabs = ['About', 'Project', 'Contact', 'Resume'];
   const [showBasic, setShowBasic] = useState(false);
 
   return (
@@ -41,7 +41,7 @@ function NavTabs(props) {
                   // the current page is set through the handlePageChange props.
                   onClick={() => props.handlePageChange(tab)}
                   className={
-                    props.currentPage === tab ? 'nav-link active' : 'nav-link'
+                    props.currentPage === tab ? 'nav-link navActive' : 'nav-link'
                   }
                 >
                   {tab}

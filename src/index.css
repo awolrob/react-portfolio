@@ -1,8 +1,8 @@
-main {
+/* main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
-}
+} */
 /* :root {
   --primary: #8c54ff;
   --secondary: #f3a847;
@@ -16,14 +16,14 @@ main {
   --spacing-five: calc(2.5rem);
 } */
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
-html,
+/* html,
 body {
   min-height: 100%;
-}
+} */
 
 /* body {
   margin: 0;
@@ -81,6 +81,19 @@ p {
 a {
   color: var(--tertiary);
   text-decoration: none;
+
+}
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.navActive {
+  color: darkgray;
+  font-weight: bold;
+} 
+/* a {
+  color: var(--tertiary);
+  text-decoration: none;
   font-weight: bold;
 }
 
@@ -115,7 +128,7 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: 0.8;
-}
+} */
 
 img {
   max-width: 100%;
@@ -169,7 +182,7 @@ textarea {
   margin-right: auto;
 } */
 
-.flex-row {
+/* .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -180,9 +193,9 @@ textarea {
 
 .flex-end {
   justify-content: flex-end;
-}
+} */
 
-.mx-1 {
+/* .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
 }
@@ -225,14 +238,19 @@ textarea {
 .py-2 {
   padding-top: var(--spacing-two);
   padding-bottom: var(--spacing-two);
-}
+} */
 
 /* .card {
   width: 25%;
   text-align: center;
 } */
 
-.img-thumbnail {
+.card div:hover {
+  background-color: rgb(0 0 0 / 0%);
+  border-top-left-radius: 75px;
+}
+
+/* .img-thumbnail {
   width: auto;
   height: 300px;
   margin-bottom: 50px;
@@ -288,4 +306,4 @@ a {
 
 .navActive {
   color: darkgray;
-}
+} */

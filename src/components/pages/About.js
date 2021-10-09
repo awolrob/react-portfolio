@@ -1,7 +1,7 @@
 import React from 'react';
 import coverImage from '../../assets/images/imageedit_1_5111650247.png';
 import robImage from '../../assets/images/Rob.png';
-import { MDBCol, MDBContainer, MDBRow } from 'mdb-react-ui-kit';;
+import { MDBCol, MDBContainer, MDBRow } from 'mdb-react-ui-kit';
 
 function About() {
   return (
@@ -14,7 +14,7 @@ function About() {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat"
           }}>
-            <h1 id="about" className="text-lg-center">About Me</h1>
+            <h1 id="about" className="text-lg-left">About Me</h1>
             <MDBRow>
               <MDBCol>
                 <div className="flex-row justify-content-center ">
@@ -22,7 +22,7 @@ function About() {
                     src={robImage}
                     alt="cover"
                   />
-                  <p>Rob Ellingson</p>
+                  <p className="text-lg-center" >Rob Ellingson</p>
                 </div>
               </MDBCol>
               <div className="col-md-9">

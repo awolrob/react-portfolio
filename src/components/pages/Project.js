@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 import Wrapper from './Wrapper';
 import projects from '../../assets/projectData.json'
 
-function Portfolio() {
+function Project() {
   // Using useState, declare a new state variable 'projectList' and set it to the 'friends' array from 'friends.json'
   const [projectList, setprojectList] = useState(projects);
 
@@ -38,4 +38,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Project;
