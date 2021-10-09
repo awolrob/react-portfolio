@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MDBInput } from 'mdb-react-ui-kit';
+import { MDBInput } from 'mdb-react-ui-kit';;
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {

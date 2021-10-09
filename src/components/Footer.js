@@ -4,10 +4,10 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from 'mdb-react-ui-k
 const Footer = () => {
     return (
         <MDBFooter style={{
-            position: "fixed",
-            left: 0,
-            bottom: 0,
-            width: "100%"
+            // position: "fixed",
+            // left: 0,
+            // bottom: 0,
+            // width: "100%"
         }} >
             <div>
                 <MDBRow className="text-center py-1" center>
