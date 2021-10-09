@@ -52,7 +52,7 @@ function About() {
                 <br />
 
                 <div >
-                  <p style={{ fontSize: ".75em", textAlign: "right" }}>Define your life, not your comfort zone!</p>
+                  <p style={{ fontSize: "1em", textAlign: "right" }}>Define your life, not your comfort zone!</p>
                 </div>
 
               </div>
