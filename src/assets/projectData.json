@@ -76,7 +76,7 @@
   {
     "id": 10,
     "name": "Power Plus - e-commerce",
-    "image": "../../images/PwrPlus.jpg",
+    "image": "../../images/PwrPlus.JPG",
     "deployLink": "https://www.PwrPlus.com",
     "githubLink": "/#",
     "techUsed": "Design e-commerce Shopify Liquid"
@@ -84,7 +84,7 @@
   {
     "id": 11,
     "name": "Norlake Manufacturing",
-    "image": "../../images/NorlakeMfg.jpg",
+    "image": "../../images/NorlakeMfg.JPG",
     "deployLink": "http://www.NorlakeMfg.com",
     "githubLink": "/#",
     "techUsed": "Design Develop / Admin"
@@ -92,7 +92,7 @@
   {
     "id": 12,
     "name": "Kalron LLC",
-    "image": "../../images/KalronLLC.jpg",
+    "image": "../../images/KalronLLC.JPG",
     "deployLink": "http://www.kalronllc.com/",
     "githubLink": "/#",
     "techUsed": "Design Develop / Admin"

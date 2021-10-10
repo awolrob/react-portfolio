@@ -19,7 +19,8 @@ function NavTabs(props) {
   return (
     <MDBNavbar expand='lg' light sticky bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Robert A Ellingson II</MDBNavbarBrand>
+        <MDBNavbarBrand 
+        href='#'>Robert A Ellingson II</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
