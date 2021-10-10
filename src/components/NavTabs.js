@@ -12,7 +12,6 @@ import {
   MDBCollapse
 } from 'mdb-react-ui-kit';
 
-// Props are passed through our functional component.
 function NavTabs(props) {
   const tabs = ['About', 'Project', 'Contact', 'Resume'];
   const [showBasic, setShowBasic] = useState(false);
@@ -37,8 +36,7 @@ function NavTabs(props) {
               <MDBNavbarItem className="nav-item" key={tab}>
                 <MDBNavbarLink aria-current='page'
                   href={'#' + tab.toLowerCase()}
-                  // Whenever a tab is clicked on,
-                  // the current page is set through the handlePageChange props.
+                  // Whenever a tab is clicked on, the current page is set through the handlePageChange props.
                   onClick={() => props.handlePageChange(tab)}
                   className={
                     props.currentPage === tab ? 'nav-link navActive' : 'nav-link'

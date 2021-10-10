@@ -3,13 +3,14 @@ import { MDBCol, MDBContainer, MDBRow, MDBIcon } from "mdbreact";
 
 function About() {
   return (
-    <MDBContainer fluid style={{ backgroundColor: "lightgray" }}>
+    <MDBContainer fluid >
       <MDBCol lg="10" className="py-3">
         <h1 id="about" className="text-lg-left">Resume</h1>
         <MDBRow className="col-md-9">
           <p className="pr-2 text-lg-left">Download And Review My Resume :  </p>
           <a
             href="https://drive.google.com/file/d/1WqveNJ7MUlYVIpCtFMSN1J7PSXt1NPmL/view?usp=sharing"
+            target="_blank"
             className="text-lg-left">
             <span> <MDBIcon icon="file-download" /></span>
           </a>

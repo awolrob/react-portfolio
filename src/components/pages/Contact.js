@@ -40,8 +40,8 @@ const ContactPage = () => {
 
   return (
     <section>
-      <MDBRow center>
-        <MDBCol lg="10" className="m-4 p-3">
+      <MDBRow center >
+        <MDBCol md="12" className="m-4 p-3">
           <MDBCard>
             <h1 data-testid="h1tag" className="px-3">Contact me</h1>
             <form id="contact-form" className="form-outline" onSubmit={handleSubmit}>
