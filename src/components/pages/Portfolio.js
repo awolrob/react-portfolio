@@ -16,7 +16,7 @@ import projects from '../../assets/projectData.json'
 // import image11 from "../../assets/images/NorlakeMfg.JPG";
 // import image12 from "../../assets/images/KalronLLC.JPG";
 
-function Project() {
+function Portfolio() {
   const [projectList] = useState(projects);
 
   return (
@@ -41,4 +41,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Portfolio;

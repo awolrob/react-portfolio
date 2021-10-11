@@ -13,7 +13,7 @@ import {
 } from 'mdb-react-ui-kit';
 
 function NavTabs(props) {
-  const tabs = ['About', 'Project', 'Contact', 'Resume'];
+  const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
   const [showBasic, setShowBasic] = useState(false);
 
   return (

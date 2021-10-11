@@ -6,7 +6,7 @@ import { MDBCard, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 function ProjectCard(props) {
   console.log(props);
   return (
-    <MDBCol md='6' className="p-4">
+    <MDBCol className="p-4 col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xs-12">
       <MDBCard 
       style={{
         backgroundImage: "url('https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg')",

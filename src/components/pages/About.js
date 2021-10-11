@@ -34,7 +34,7 @@ function About() {
                 <br />
                 <p>
                   Having created a diverse and proven technical skill set and IT background, I chose to push my
-                  comfort zone once again to participate in the Full Stack Web Development boot camp program at CWRU to broaden my
+                  comfort zone once again to participate in the Full Stack Web Development boot camp program at <a href="https://bootcamp.case.edu/coding/"> Case Western Reserve University</a> to broaden my
                   technical skill set with challenging Full Stack technologies. Through the program I found I excel in JavaScript,
                   Node.js, jQuery and HTML.
                 </p>
@@ -45,9 +45,7 @@ function About() {
                 </p>
                 <br />
                 <p>
-                  I am excited to leverage my existing skill set and background with my
-                  new Full Stack Web Development skill set to participate in building mission critical applications for the organization
-                  which I affiliate.
+                  I am excited to leverage my existing skill set and background with my new Full Stack Web Development skill set to participate building mission critical applications for your organization.
                 </p>
                 <br />
 
