@@ -24,7 +24,7 @@ function Project() {
       <h1 style={{
         width: "100%",
         textAlign: "center"
-      }}>Projects By Rob Ellingson's</h1>
+      }}>Projects By Rob Ellingson</h1>
       {/* Map through 'projectList' and render a 'ProjectCard' for each project */}
       {projectList.map(project => (
         <ProjectCard
