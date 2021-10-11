@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Binge Bucket",
-    "image": "../../images/BingeBucket.JPG",
+    "image": "BingeBucket.JPG",
     "deployLink": "https://whispering-everglades-56821.herokuapp.com/",
     "githubLink": "https://github.com/awolrob/BingeBucket",
     "techUsed": "Full Stack - MySQL Node.js Express.js"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Can I Camp",
-    "image": "../../images/CanICamp.jpeg",
+    "image": "CanICamp.jpeg",
     "deployLink": "https://awolrob.github.io/Project1/",
     "githubLink": "https://awolrob.github.io/Project1/index.html",
     "techUsed": "JavaScript - Google API Weather API"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Social Network",
-    "image": "../../images/18-nosql-challenge.gif",
+    "image": "18-nosql-challenge.gif",
     "deployLink": "https://drive.google.com/file/d/1j8LcK6Bhke77dtZ5y1j2lISRDtZAuxUJ/view?usp=sharing",
     "githubLink": "https://github.com/awolrob/social-network",
     "techUsed": "JavaScript NoSQL Insomnia RESTful API"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Food Festival Module",
-    "image": "../../images/food-festival.PNG",
+    "image": "food-festival.PNG",
     "deployLink": "https://awolrob.github.io/food-festival/index.html",
     "githubLink": "https://github.com/awolrob/food-festival",
     "techUsed": "Full Stack - MySQL Node.js Express.js"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Weather Dashboard Challenge",
-    "image": "../../images/weather-dashboard.PNG",
+    "image": "weather-dashboard.PNG",
     "deployLink": "https://awolrob.github.io/weather-dashboard/",
     "githubLink": "https://github.com/awolrob/weather-dashboard",
     "techUsed": "Server-Side APIs JavaScript"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Budget Tracker",
-    "image": "../../images/budget-tracker.PNG",
+    "image": "budget-tracker.PNG",
     "deployLink": "https://desolate-hollows-04852.herokuapp.com/",
     "githubLink": "https://github.com/awolrob/budget-tracket",
     "techUsed": "Heroku MongodDB IndexDB PWA JavaScript Webpac"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Robot Gladiators",
-    "image": "../../images/robot-gladiators.JPG",
+    "image": "robot-gladiators.JPG",
     "deployLink": "https://awolrob.github.io/robot-gladiators/index.html",
     "githubLink": "https://github.com/awolrob/robot-gladiators",
     "techUsed": "JavaScript"
@@ -59,7 +59,7 @@
   {
     "id": 8,
     "name": "Bottega Course",
-    "image": "../../images/BottegeHTMLCSS.JPG",
+    "image": "BottegeHTMLCSS.JPG",
     "deployLink": "https://awolrob.github.io/Bottega-HTML-CSS/",
     "githubLink": "https://github.com/awolrob/Bottega-HTML-CSS",
     "techUsed": "HTML CSS Font Awesome"
@@ -68,7 +68,7 @@
   {
     "id": 9,
     "name": "Oven Charts",
-    "image": "../../images/Oven-Charts.gif",
+    "image": "Oven-Charts.gif",
     "deployLink": "https://drive.google.com/file/d/1jOrxxbM3GmLwixjnZnNKzKQ09Bm5Sv8q/view?usp=sharing",
     "githubLink": "https://github.com/awolrob/oven-charts",
     "techUsed": "VBA Excel VB6"
@@ -76,7 +76,7 @@
   {
     "id": 10,
     "name": "Power Plus - e-commerce",
-    "image": "../../images/PwrPlus.JPG",
+    "image": "PwrPlus.JPG",
     "deployLink": "https://www.PwrPlus.com",
     "githubLink": "/#",
     "techUsed": "Design e-commerce Shopify Liquid"
@@ -84,7 +84,7 @@
   {
     "id": 11,
     "name": "Norlake Manufacturing",
-    "image": "../../images/NorlakeMfg.JPG",
+    "image": "NorlakeMfg.JPG",
     "deployLink": "http://www.NorlakeMfg.com",
     "githubLink": "/#",
     "techUsed": "Design Develop / Admin"
@@ -92,7 +92,7 @@
   {
     "id": 12,
     "name": "Kalron LLC",
-    "image": "../../images/KalronLLC.JPG",
+    "image": "KalronLLC.JPG",
     "deployLink": "http://www.kalronllc.com/",
     "githubLink": "/#",
     "techUsed": "Design Develop / Admin"
