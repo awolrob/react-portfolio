@@ -41,7 +41,6 @@ function About() {
                 <li><MDBIcon icon="code" list />  MySQL, Sequelize</li>
                 <li><MDBIcon icon="code" list />  MongoDB, Mongoose</li>
                 <li><MDBIcon icon="code" list />  REST</li>
-                <li><MDBIcon icon="code" list />  Bootstrap</li>
                 <li><MDBIcon icon="code" list />  GraphQL</li>
                 <li><MDBIcon icon="code" list />  MERN Stack</li>
                 <li><MDBIcon icon="code" list />  Progressive Web Applications</li>
@@ -51,12 +50,16 @@ function About() {
             <MDBCol className="md-4">
               <h5>Tools</h5>
               <ul className="fa-ul">
+                <li><MDBIcon icon="code" list />  Redux</li>
+                <li><MDBIcon icon="code" list />  Stripe.js</li>
                 <li><MDBIcon icon="code" list />  Visual Studio</li>
                 <li><MDBIcon icon="code" list />  React Router</li>
                 <li><MDBIcon icon="code" list />  MySQL Workbench</li>
                 <li><MDBIcon icon="code" list />  Lighthouse</li>
                 <li><MDBIcon icon="code" list />  Insomnia</li>
                 <li><MDBIcon icon="code" list />  GitHub</li>
+                <li><MDBIcon icon="code" list />  Webpack</li>
+                <li><MDBIcon icon="code" list />  Concurrently</li>
               </ul>
             </MDBCol>
           </MDBRow>
