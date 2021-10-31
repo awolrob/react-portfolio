@@ -8,7 +8,7 @@ import LineChart from './pages/LineChart'
 
 function Header() {
 
-  const [currentPage, handlePageChange] = useState('LineChart');
+  const [currentPage, handlePageChange] = useState('About');
 
   const renderPage = () => {
     switch (currentPage) {

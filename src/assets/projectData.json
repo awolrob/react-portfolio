@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Binge Bucket",
-    "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg",
+    "image": "BingeBucket.JPG",
     "deployLink": "https://whispering-everglades-56821.herokuapp.com/",
     "githubLink": "https://github.com/awolrob/BingeBucket",
     "techUsed": "Full Stack - MySQL Node.js Express.js"
