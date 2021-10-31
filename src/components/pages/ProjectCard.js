@@ -13,7 +13,7 @@ function ProjectCard(props) {
         // backgroundImage: `url(../../assets/images/${props.image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat" 
       }}
       >
           <img
