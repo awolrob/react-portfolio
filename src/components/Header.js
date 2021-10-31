@@ -4,10 +4,11 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import LineChart from './pages/LineChart'
 
 function Header() {
 
-  const [currentPage, handlePageChange] = useState('About');
+  const [currentPage, handlePageChange] = useState('LineChart');
 
   const renderPage = () => {
     switch (currentPage) {
@@ -19,7 +20,9 @@ function Header() {
         return <Contact />;
       case 'Resume':
         return <Resume />;
-      default:
+        case 'LineChart':
+          return <LineChart />;
+        default:
         return <About />;
     }
   };

@@ -1,14 +1,22 @@
 [
   {
     "id": 1,
+    "name": "Stock Watch Life",
+    "image": "app-in-use-gif.gif",
+    "deployLink": "https://www.stockwatch.life/",
+    "githubLink": "https://github.com/awolrob/stock-watch",
+    "techUsed": "Full Stack - Apollo JWT Rechart AntD Node.js Express.js"
+  },
+  {
+    "id": 2,
     "name": "Binge Bucket",
-    "image": "BingeBucket.JPG",
+    "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg",
     "deployLink": "https://whispering-everglades-56821.herokuapp.com/",
     "githubLink": "https://github.com/awolrob/BingeBucket",
     "techUsed": "Full Stack - MySQL Node.js Express.js"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Can I Camp",
     "image": "CanICamp.jpeg",
     "deployLink": "https://awolrob.github.io/Project1/",
@@ -16,7 +24,7 @@
     "techUsed": "JavaScript - Google API Weather API"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Social Network",
     "image": "18-nosql-challenge.gif",
     "deployLink": "https://drive.google.com/file/d/1j8LcK6Bhke77dtZ5y1j2lISRDtZAuxUJ/view?usp=sharing",
@@ -24,7 +32,7 @@
     "techUsed": "JavaScript NoSQL Insomnia RESTful API"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Food Festival Module",
     "image": "food-festival.PNG",
     "deployLink": "https://awolrob.github.io/food-festival/index.html",
@@ -32,7 +40,7 @@
     "techUsed": "Full Stack - MySQL Node.js Express.js"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Weather Dashboard Challenge",
     "image": "weather-dashboard.PNG",
     "deployLink": "https://awolrob.github.io/weather-dashboard/",
@@ -40,22 +48,13 @@
     "techUsed": "Server-Side APIs JavaScript"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Budget Tracker",
     "image": "budget-tracker.PNG",
     "deployLink": "https://desolate-hollows-04852.herokuapp.com/",
     "githubLink": "https://github.com/awolrob/budget-tracket",
     "techUsed": "Heroku MongodDB IndexDB PWA JavaScript Webpac"
   },
-  {
-    "id": 7,
-    "name": "Robot Gladiators",
-    "image": "robot-gladiators.JPG",
-    "deployLink": "https://awolrob.github.io/robot-gladiators/index.html",
-    "githubLink": "https://github.com/awolrob/robot-gladiators",
-    "techUsed": "JavaScript"
-  }
-  ,
   {
     "id": 8,
     "name": "Bottega Course",

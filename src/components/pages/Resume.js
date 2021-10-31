@@ -50,7 +50,7 @@ function About() {
             <MDBCol className="md-4">
               <h5>Tools</h5>
               <ul className="fa-ul">
-                <li><MDBIcon icon="code" list />  Redux</li>
+                <li><MDBIcon icon="code" list />  React Context API</li>
                 <li><MDBIcon icon="code" list />  Stripe.js</li>
                 <li><MDBIcon icon="code" list />  Visual Studio</li>
                 <li><MDBIcon icon="code" list />  React Router</li>
