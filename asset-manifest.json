@@ -1,21 +1,28 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c2813968.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.82e07bde.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.82e07bde.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.08481891.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.08481891.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.a6c3d1d2.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.a6c3d1d2.js.map",
     "static/css/2.6e5ca7f1.chunk.css": "/react-portfolio/static/css/2.6e5ca7f1.chunk.css",
-    "static/js/2.e5adea50.chunk.js": "/react-portfolio/static/js/2.e5adea50.chunk.js",
-    "static/js/2.e5adea50.chunk.js.map": "/react-portfolio/static/js/2.e5adea50.chunk.js.map",
+    "static/js/2.111fb3fd.chunk.js": "/react-portfolio/static/js/2.111fb3fd.chunk.js",
+    "static/js/2.111fb3fd.chunk.js.map": "/react-portfolio/static/js/2.111fb3fd.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.6e5ca7f1.chunk.css.map": "/react-portfolio/static/css/2.6e5ca7f1.chunk.css.map",
     "static/css/main.c2813968.chunk.css.map": "/react-portfolio/static/css/main.c2813968.chunk.css.map",
-    "static/js/2.e5adea50.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e5adea50.chunk.js.LICENSE.txt",
+    "static/js/2.111fb3fd.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.111fb3fd.chunk.js.LICENSE.txt",
     "static/media/18-nosql-challenge.gif": "/react-portfolio/static/media/18-nosql-challenge.ecdafe77.gif",
     "static/media/BingeBucket.JPG": "/react-portfolio/static/media/BingeBucket.a64ed75c.JPG",
     "static/media/BottegeHTMLCSS.JPG": "/react-portfolio/static/media/BottegeHTMLCSS.018d0c99.JPG",
     "static/media/CanICamp.jpeg": "/react-portfolio/static/media/CanICamp.4d1c7b8f.jpeg",
+    "static/media/Coursera 49PAPZSKB5XY.jpg": "/react-portfolio/static/media/Coursera 49PAPZSKB5XY.97c35f00.jpg",
+    "static/media/Coursera 9YX3LFZGRK4L.jpg": "/react-portfolio/static/media/Coursera 9YX3LFZGRK4L.769cf3f8.jpg",
+    "static/media/Coursera DPHMEXNT3S2X.jpg": "/react-portfolio/static/media/Coursera DPHMEXNT3S2X.c52bca70.jpg",
+    "static/media/Coursera QVXWC9DXT79R.jpg": "/react-portfolio/static/media/Coursera QVXWC9DXT79R.b05a616d.jpg",
+    "static/media/Coursera RXWZF43CN8YN.jpg": "/react-portfolio/static/media/Coursera RXWZF43CN8YN.370c11b0.jpg",
+    "static/media/Coursera VS3UAFWD2K5W.jpg": "/react-portfolio/static/media/Coursera VS3UAFWD2K5W.a8bfa917.jpg",
+    "static/media/Full Stack Boot Camp.jpg": "/react-portfolio/static/media/Full Stack Boot Camp.1456e0de.jpg",
     "static/media/KalronLLC.JPG": "/react-portfolio/static/media/KalronLLC.aa68df4f.JPG",
     "static/media/MyBands.JPG": "/react-portfolio/static/media/MyBands.b0c6e77c.JPG",
     "static/media/MyFirstWebsite.JPG": "/react-portfolio/static/media/MyFirstWebsite.6bf1e058.JPG",
@@ -42,8 +49,8 @@
   "entrypoints": [
     "static/js/runtime-main.a6c3d1d2.js",
     "static/css/2.6e5ca7f1.chunk.css",
-    "static/js/2.e5adea50.chunk.js",
+    "static/js/2.111fb3fd.chunk.js",
     "static/css/main.c2813968.chunk.css",
-    "static/js/main.82e07bde.chunk.js"
+    "static/js/main.08481891.chunk.js"
   ]
 }
