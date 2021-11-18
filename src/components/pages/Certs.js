@@ -24,7 +24,7 @@ function Cert() {
       <h1 style={{
         width: "100%",
         textAlign: "center"
-      }}>Rob Ellingson Certifications</h1>
+      }}>Rob Ellingson Certificates</h1>
       {certList.map(certs => (
         <CertsCard
           id={certs.id}

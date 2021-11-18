@@ -21,7 +21,7 @@ function Header() {
       //   return <Contact />;
       case 'Resume':
         return <Resume />;
-      case 'Certifications':
+      case 'Certificates':
         return <Certs />;
       case 'LineChart':
         return <LineChart />;
