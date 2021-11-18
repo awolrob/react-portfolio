@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Stock Watch Life",
+      "image": "Full Stack Boot Camp.jpg",
+      "deployLink": "https://www.stockwatch.life/",
+      "githubLink": "https://github.com/awolrob/stock-watch",
+      "techUsed": "Full Stack - Apollo JWT Rechart AntD Node.js Express.js"
+    },
+    {
+      "id": 2,
+      "name": "Binge Bucket",
+      "image": "Coursera 9YX3LFZGRK4L.jpg",
+      "deployLink": "https://whispering-everglades-56821.herokuapp.com/",
+      "githubLink": "https://github.com/awolrob/BingeBucket",
+      "techUsed": "Full Stack - MySQL Node.js Express.js"
+    },
+    {
+      "id": 3,
+      "name": "Can I Camp",
+      "image": "Coursera RXWZF43CN8YN.jpg",
+      "deployLink": "https://awolrob.github.io/Project1/",
+      "githubLink": "https://awolrob.github.io/Project1/index.html",
+      "techUsed": "JavaScript - Google API Weather API"
+    },
+    {
+      "id": 4,
+      "name": "Social Network",
+      "image": "Coursera DPHMEXNT3S2X.jpg",
+      "deployLink": "https://drive.google.com/file/d/1j8LcK6Bhke77dtZ5y1j2lISRDtZAuxUJ/view?usp=sharing",
+      "githubLink": "https://github.com/awolrob/social-network",
+      "techUsed": "JavaScript NoSQL Insomnia RESTful API"
+    },
+    {
+      "id": 5,
+      "name": "Food Festival Module",
+      "image": "Coursera VS3UAFWD2K5W.jpg",
+      "deployLink": "https://awolrob.github.io/food-festival/index.html",
+      "githubLink": "https://github.com/awolrob/food-festival",
+      "techUsed": "Full Stack - MySQL Node.js Express.js"
+    },
+    {
+      "id": 6,
+      "name": "Weather Dashboard Challenge",
+      "image": "Coursera 49PAPZSKB5XY.jpg",
+      "deployLink": "https://awolrob.github.io/weather-dashboard/",
+      "githubLink": "https://github.com/awolrob/weather-dashboard",
+      "techUsed": "Server-Side APIs JavaScript"
+    },
+    {
+      "id": 7,
+      "name": "Budget Tracker",
+      "image": "Coursera QVXWC9DXT79R.jpg",
+      "deployLink": "https://desolate-hollows-04852.herokuapp.com/",
+      "githubLink": "https://github.com/awolrob/budget-tracket",
+      "techUsed": "Heroku MongodDB IndexDB PWA JavaScript Webpac"
+    }
+  ]

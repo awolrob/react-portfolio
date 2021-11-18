@@ -4,6 +4,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 // import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Certs from './pages/Certs';
 import LineChart from './pages/LineChart'
 
 function Header() {
@@ -20,9 +21,11 @@ function Header() {
       //   return <Contact />;
       case 'Resume':
         return <Resume />;
-        case 'LineChart':
-          return <LineChart />;
-        default:
+      case 'Certifications':
+        return <Certs />;
+      case 'LineChart':
+        return <LineChart />;
+      default:
         return <About />;
     }
   };
