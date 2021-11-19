@@ -13,7 +13,9 @@ function Wrapper(props) {
       alignContent: "flex-start",
       overflow: "auto"
     }}
-  >{props.children}</div>;
+  >
+    {props.children}
+  </div>;
 }
 
 export default Wrapper;

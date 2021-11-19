@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "name": "Stock Watch Life",
+      "name": "CWRU Full Stack Boot Camp",
       "image": "Full Stack Boot Camp.jpg",
       "deployLink": "https://www.stockwatch.life/",
       "githubLink": "https://github.com/awolrob/stock-watch",
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "name": "Binge Bucket",
+      "name": "Python for Everybody",
       "image": "Coursera 9YX3LFZGRK4L.jpg",
       "deployLink": "https://whispering-everglades-56821.herokuapp.com/",
       "githubLink": "https://github.com/awolrob/BingeBucket",
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "name": "Can I Camp",
+      "name": "Programming for Everybody",
       "image": "Coursera RXWZF43CN8YN.jpg",
       "deployLink": "https://awolrob.github.io/Project1/",
       "githubLink": "https://awolrob.github.io/Project1/index.html",
@@ -25,7 +25,7 @@
     },
     {
       "id": 4,
-      "name": "Social Network",
+      "name": "Python Data Structures",
       "image": "Coursera DPHMEXNT3S2X.jpg",
       "deployLink": "https://drive.google.com/file/d/1j8LcK6Bhke77dtZ5y1j2lISRDtZAuxUJ/view?usp=sharing",
       "githubLink": "https://github.com/awolrob/social-network",
@@ -33,7 +33,7 @@
     },
     {
       "id": 5,
-      "name": "Food Festival Module",
+      "name": "Python to Access Web Data",
       "image": "Coursera VS3UAFWD2K5W.jpg",
       "deployLink": "https://awolrob.github.io/food-festival/index.html",
       "githubLink": "https://github.com/awolrob/food-festival",
@@ -41,7 +41,7 @@
     },
     {
       "id": 6,
-      "name": "Weather Dashboard Challenge",
+      "name": "Databases with Python",
       "image": "Coursera 49PAPZSKB5XY.jpg",
       "deployLink": "https://awolrob.github.io/weather-dashboard/",
       "githubLink": "https://github.com/awolrob/weather-dashboard",
@@ -49,7 +49,7 @@
     },
     {
       "id": 7,
-      "name": "Budget Tracker",
+      "name": "Python Capstone",
       "image": "Coursera QVXWC9DXT79R.jpg",
       "deployLink": "https://desolate-hollows-04852.herokuapp.com/",
       "githubLink": "https://github.com/awolrob/budget-tracket",
