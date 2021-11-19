@@ -15,7 +15,7 @@ function ProjectCard(props) {
     // </MDBCol>
     <MDBCol className="p-4 col-auto">
       <MDBCard>
-        <MDBCardImage fluid className="img-fluid" src={require(`../../assets/images/${props.image}`).default}
+        <MDBCardImage fluid className="img-fluid shadow-box-example hoverable" src={require(`../../assets/images/${props.image}`).default}
            />
         <MDBCardBody>
           <MDBCardTitle>{props.name}</MDBCardTitle>

@@ -16,7 +16,7 @@ function ProjectCard(props) {
       // backgroundRepeat: "no-repeat" 
       // }}
       >
-        <img
+        <img className="shadow-box-example hoverable"
           src={require(`../../assets/images/${props.image}`).default}
         />
 

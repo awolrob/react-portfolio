@@ -66,3 +66,9 @@ img {
 .card>img {
   height: 250px;
 }
+
+.shadow-box-example {
+  height: 120px;
+  width: 100%;
+  background-color: #64b5f6;
+}
