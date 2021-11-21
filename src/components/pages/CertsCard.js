@@ -1,6 +1,6 @@
 import React from 'react';
 // import { MDBCard, MDBCol, MDBIcon } from 'mdbreact';
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdb-react-ui-kit';
+import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCol } from 'mdb-react-ui-kit';
 
 // Props are passed through our functional component.
 function ProjectCard(props) {
