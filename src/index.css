@@ -1,3 +1,7 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
 p, h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -10,46 +14,32 @@ p {
   /* margin-top: 0; */
 }
 
-/* h1 {
-  font-size: 2.25rem;
+.HiddenText {
+  display: none;
 }
 
-h2 {
-  font-size: 2rem;
+.HiddenText:hover {
+  display: none;
+  background: rgba(1, 6, 22, 0.7) !important;
+  color: whitesmoke !important;
+  border-radius: .5rem;
 }
 
-h3 {
-  font-size: 1.75rem;
+.DivForHoverItem:hover .HiddenText {
+  display: block;
+  transition: all 0.55s ease-in-out;
 }
 
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
-}
-*/
-
-/* .card>div:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: whitesmoke!important;
-} */
-
-.hide:hover { 
-  color: darkgray!important;
-}
-
-p>a {
-  color: rgb(25, 63, 170)!important;
+.hide:hover {
+  color: darkgray !important;
 }
 
 p>a:hover {
-  color: whitesmoke!important;
+  color: whitesmoke !important;
+}
+
+a>i:hover {
+  color: whitesmoke !important;
 }
 
 .navActive {
@@ -67,8 +57,11 @@ img {
   height: 250px;
 }
 
-.shadow-box-example {
+.shadow-box {
   height: 120px;
   width: 100%;
-  background-color: #64b5f6;
+}
+
+.shadow-box:hover {
+  transform: scale(1.2)
 }

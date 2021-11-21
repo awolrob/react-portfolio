@@ -6,18 +6,23 @@ function About() {
     <MDBContainer fluid >
       <MDBCol lg="10" className="py-3">
         <h1 id="about" className="text-lg-left">Resume</h1>
-        <MDBRow className="col-md-9">
-          <p className="pr-2 text-lg-left">Download And Review My Resume :  </p>
-          <a
-            href="https://drive.google.com/file/d/1WqveNJ7MUlYVIpCtFMSN1J7PSXt1NPmL/view?usp=sharing"
-            target="_blank"
-            className="text-lg-left">
-            <span> <MDBIcon icon="file-download" /></span>
-          </a>
+        <MDBRow className="col-auto">
+          <MDBCol>
+            <p className="">Download And Review My Resume :
+              <span>
+                <a
+                  href="https://drive.google.com/file/d/1WqveNJ7MUlYVIpCtFMSN1J7PSXt1NPmL/view?usp=sharing"
+                  target="_blank"
+                  className=""
+                > <MDBIcon icon="file-download" />
+                </a>
+              </span>
+            </p>
+          </MDBCol>
         </MDBRow>
         <MDBContainer>
           <MDBRow>
-            <MDBCol className="md-4">
+            <MDBCol className="col-auto">
               <h5>Front-end Proficiencies</h5>
               <ul className="fa-ul">
                 <li><MDBIcon icon="code" list />  HTLM</li>
@@ -32,7 +37,7 @@ function About() {
                 <li><MDBIcon icon="code" list />  Local Storage, Session Storage, IndexedDB</li>
               </ul>
             </MDBCol>
-            <MDBCol className="md-4">
+            <MDBCol className="col-auto">
               <h5>Back-end Proficiencies</h5>
               <ul className="fa-ul">
                 <li><MDBIcon icon="code" list />  APIs</li>
@@ -47,7 +52,7 @@ function About() {
                 <li><MDBIcon icon="code" list />  User Authentication</li>
               </ul>
             </MDBCol>
-            <MDBCol className="md-4">
+            <MDBCol className="col-auto">
               <h5>Tools</h5>
               <ul className="fa-ul">
                 <li><MDBIcon icon="code" list />  React Context API</li>

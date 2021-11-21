@@ -1,23 +1,25 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBSticky, MDBStickyContent, MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from 'mdb-react-ui-kit';
 const Footer = () => {
     return (
-        <MDBFooter bgColor="light" style={{
-            position: "fixed",
-            left: 0,
-            bottom: 0,
-            width: "100%"
-        }} >
+        <MDBFooter bgColor="light"
+            style={{
+                position: "sticky",
+                left: 0,
+                bottom: 0,
+                width: "100%"
+            }}
+        >
             <div>
                 <MDBRow className="text-center py-1" center style={{ boxShadow: "0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)" }}>
                     <MDBCol size="1">
                         <a href='https://github.com/awolrob' target="_blank" className="git-ic mr-3">
-                            <MDBIcon color="black" fab icon="github" />
+                            <MDBIcon fab icon="github" />
                         </a>
                     </MDBCol>
                     <MDBCol size="1">
                         <a href='https://www.linkedin.com/in/robertaellingsonii/' target="_blank" className="li-ic mr-3">
-                            <MDBIcon color='black' fab icon="linkedin-in" />
+                            <MDBIcon fab icon="linkedin-in" />
                         </a>
                     </MDBCol>
                     <MDBCol size="1">

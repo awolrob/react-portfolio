@@ -6,21 +6,13 @@ import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, 
 function ProjectCard(props) {
   console.log(props);
   return (
-    // <MDBCol sm="" className="p-4 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-    //   <MDBCard>
-    //     <img
-    //       src={require(`../../assets/images/${props.image}`).default}
-    //     />
-    //   </MDBCard>
-    // </MDBCol>
     <MDBCol className="p-4 col-auto">
-      <MDBCard>
-        <MDBCardImage fluid className="img-fluid shadow-box-example hoverable" src={require(`../../assets/images/${props.image}`).default}
+      <MDBCard style={{ width: "22rem" }} >
+        <MDBCardImage className="view hm-zoom img-fluid shadow-box hoverable" 
+        src={require(`../../assets/images/${props.image}`).default}
            />
         <MDBCardBody>
           <MDBCardTitle>{props.name}</MDBCardTitle>
-          {/* <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
-          <MDBBtn href="#">Click</MDBBtn> */}
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
