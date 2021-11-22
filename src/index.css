@@ -30,15 +30,7 @@ p {
   transition: all 0.55s ease-in-out;
 }
 
-.hide:hover {
-  color: darkgray !important;
-}
-
-p>a:hover {
-  color: whitesmoke !important;
-}
-
-a>i:hover {
+a>p:hover, p>a:hover, a>i:hover{
   color: whitesmoke !important;
 }
 
