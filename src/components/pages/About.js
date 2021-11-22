@@ -1,6 +1,6 @@
 import React from 'react';
-import coverImage from '../../assets/images/imageedit_1_5111650247.png';
-import robImage from '../../assets/images/Rob.png';
+import coverImage from '../../assets/images/imageedit_1_5111650247.webp';
+import robImage from '../../assets/images/Rob.webp';
 import {
   MDBCol,
   MDBContainer,
