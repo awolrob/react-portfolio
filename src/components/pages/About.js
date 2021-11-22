@@ -24,6 +24,7 @@ function About() {
                 <div className="flex-row justify-content-center ">
                   <img
                     src={robImage}
+                    loading="lazy"
                     alt="cover"
                   />
                   <p className="text-lg-center" >Rob Ellingson</p>
