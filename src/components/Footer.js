@@ -1,5 +1,11 @@
 import React from "react";
-import { MDBSticky, MDBStickyContent, MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from 'mdb-react-ui-kit';
+import {
+    MDBCol,
+    MDBContainer,
+    MDBRow,
+    MDBFooter,
+    MDBIcon
+} from 'mdb-react-ui-kit';
 const Footer = () => {
     return (
         <MDBFooter bgColor="light"

@@ -3,19 +3,6 @@ import CertsCard from './CertsCard';
 import Wrapper from './Wrapper';
 import certs from '../../assets/certData.json'
 
-// import image1 from "../../assets/images/BingeBucket.JPG";
-// import image2 from "../../assets/images/CanICamp.jpeg";
-// import image3 from "../../assets/images/18-nosql-challenge.gif";
-// import image4 from "../../assets/images/food-festival.PNG";
-// import image5 from "../../assets/images/weather-dashboard.PNG";
-// import image6 from "../../assets/images/budget-tracker.PNG";
-// import image7 from "../../assets/images/robot-gladiators.JPG";
-// import image8 from "../../assets/images/BottegeHTMLCSS.JPG";
-// import image9 from "../../assets/images/Oven-Charts.gif";
-// import image10 from "../../assets/images/PwrPlus.JPG";
-// import image11 from "../../assets/images/NorlakeMfg.JPG";
-// import image12 from "../../assets/images/KalronLLC.JPG";
-
 function Cert() {
   const [certList] = useState(certs);
 

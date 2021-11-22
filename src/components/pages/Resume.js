@@ -1,5 +1,10 @@
 import React from 'react';
-import { MDBCol, MDBContainer, MDBRow, MDBIcon } from "mdbreact";
+import {
+  MDBCol,
+  MDBContainer,
+  MDBRow,
+  MDBIcon
+} from "mdbreact";
 
 function About() {
   return (

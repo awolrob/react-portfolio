@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
-import { MDBRow, MDBCol, MDBCard, MDBBtn, MDBInput } from 'mdb-react-ui-kit';
+import {
+  MDBRow,
+  MDBCol,
+  MDBCard,
+  MDBBtn,
+  MDBInput
+} from 'mdb-react-ui-kit';
 import { validateEmail } from '../../utils/helpers';
 
 const ContactPage = () => {

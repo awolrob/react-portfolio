@@ -4,8 +4,7 @@ import {
   MDBCol,
   MDBIcon,
   MDBCardTitle,
-  MDBCardBody,
-  MDBCardText
+  MDBCardBody
 } from 'mdb-react-ui-kit';
 
 // Props are passed through our functional component.
@@ -32,11 +31,9 @@ function ProjectCard(props) {
           <p style={{ color: "smokewhite" }} >
             {props.techUsed}
           </p>
-          <MDBCardText>
-            <a href={props.deployLink} target="_blank"             >
-              <p  >View Deployed App</p>
-            </a>
-          </MDBCardText>
+          <a href={props.deployLink} target="_blank"             >
+            <p  >View Deployed App</p>
+          </a>
         </MDBCardBody>
       </MDBCard>
     </MDBCol >
