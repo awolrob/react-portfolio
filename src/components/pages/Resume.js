@@ -18,6 +18,7 @@ function About() {
                 <a
                   href="https://drive.google.com/file/d/1WqveNJ7MUlYVIpCtFMSN1J7PSXt1NPmL/view?usp=sharing"
                   target="_blank"
+                  rel="noreferrer"
                   className=""
                 > <MDBIcon icon="file-download" />
                 </a>
